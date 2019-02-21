@@ -14,8 +14,6 @@ app.get('/*', async (req, res) => {
     console.log(req.path);
     try {
         const article = await reader.getArticleByUrl(req.path);
-        console.log(`Article has type [${article.mimeType}]`);
-        console.log(`Buffer:`, article.bufferData && article.bufferData.length);
         if (!article.bufferData) {
             res.send('404')
         } else {
