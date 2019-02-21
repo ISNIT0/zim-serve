@@ -1,4 +1,4 @@
-# Zim Serve
+# WIP Zim Serve
 
 ## Requirements
 - NodeJS
