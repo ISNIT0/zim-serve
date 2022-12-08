@@ -12,7 +12,7 @@
   "dependencies": {
     "@openzim/libzim": "^2.0.4",
     "@types/express": "^4.16.1",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.3.3"
   }
